@@ -150,21 +150,24 @@ document.querySelectorAll(".topic").forEach(topic => {
 const articleContent = {
 
   "How to Earn Money Online in 2026":
-    "Earning money online is possible, but it takes the right skills, patience and consistency. You can start by learning a digital skill such as writing, graphic design, video editing, web development or digital marketing. Once you have a useful skill, you can offer your services to clients through online platforms or directly through your network. Another option is creating useful content through a blog, YouTube channel, newsletter or social media page. There is no guaranteed method to make quick money online. Start small, keep learning and focus on creating real value.",
+  "How to earn money online in 2026 requires useful skills, patience and consistent effort. Beginners can start by learning skills such as content writing, graphic design, video editing, web development or digital marketing. After building a basic skill, you can look for freelance work, create useful content, build a blog or explore legitimate affiliate marketing opportunities. It is important to avoid websites or offers that promise quick and guaranteed income. Focus on learning valuable skills, helping people solve real problems and improving your work over time.",  
 
 
   "Best AI Tools for Students in 2026":
-    "AI tools can help students study smarter, save time and understand difficult topics more easily. Useful AI tools can help with research, writing, brainstorming, summarizing, learning and productivity. Students should use AI as a learning assistant rather than a replacement for their own thinking. Always check important information and use AI responsibly.",
-
-
+  "AI tools can be useful for students when they are used correctly. They can help with understanding difficult topics, generating study ideas, summarizing notes, improving writing and organizing daily study tasks. Students should compare important information with reliable sources instead of blindly trusting AI-generated answers. It is also important to use AI to support learning rather than submitting AI-generated work as your own. Choosing the right tool depends on the student's subject, learning goal and the type of help they need.",
+  
+  
   "A Simple Digital Productivity System":
-    "A good productivity system does not need to be complicated. Start by writing down the important tasks you need to complete. Choose the most important tasks for the day and work on them without unnecessary distractions. You can use a simple digital notes app or task manager to organize your work. Review your tasks at the end of each day and prepare for tomorrow. The goal is not to stay busy all day, but to consistently complete the work that matters.",
+  "A simple digital productivity system can help you organize your work, reduce distractions and make better use of your time. Start by listing the tasks you need to complete and identify the two or three most important ones. Use a notes app, calendar or task manager to keep your tasks organized. Try to work on one important task at a time instead of constantly switching between different activities. At the end of the day, review what you completed and prepare a short plan for the next day. A good productivity system should be simple enough to follow consistently.",
 
 
   "How to Build a Better Online Presence":
-    "Building a strong online presence starts with clearly showing who you are and what you can offer. Choose a platform that matches your goals and create useful, consistent content. Keep your profile professional, use a clear description and share information that can help your audience. Over time, consistency and useful content can help you build trust and grow your online presence."
-};
+  "Building a better online presence starts with clearly communicating who you are, what you know and how you can help others. Choose one or two platforms that are suitable for your goals and create useful content regularly. Keep your profile clear and professional, use a simple description and make sure the information you share is accurate and helpful. You can share tutorials, practical tips, personal experiences and useful resources related to your area of interest. Avoid copying content from other websites. Over time, original and helpful content can help you build credibility, connect with an audience and create new opportunities.",
 
+  
+"How to Create a Professional Resume Using Digital Tools":
+  "A professional resume is a simple way to present your education, skills, experience and achievements to potential employers. Beginners can use digital tools to create a clean and easy-to-read resume without needing advanced design skills. Start with your name and contact information, followed by a short summary, education, relevant skills and any projects or experience. Use clear headings and avoid unnecessary graphics or information. Before sending your resume, check it carefully for spelling mistakes and make sure the information is accurate. A clear and honest resume can help employers quickly understand your skills and suitability for an opportunity.",
+};
 
 // ==============================
 // OPEN ARTICLE
