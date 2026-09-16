@@ -151,89 +151,106 @@ document.querySelectorAll(".topic").forEach(topic => {
 
 const articleContent = {
 
-
   "How to Earn Money Online in 2026":
-"Making money online in 2026 is possible, but it usually requires useful skills, consistent effort and realistic expectations. Beginners should focus on learning a skill instead of looking for quick-money schemes.
+`Making money online in 2026 is possible, but it usually requires useful skills, consistent effort and realistic expectations.
 
-One practical option is freelancing. Skills such as content writing, graphic design, video editing, web development and digital marketing can be learned through regular practice. After building some sample work, beginners can look for suitable freelance projects and gradually build experience.
+Beginners should focus on learning a skill instead of looking for quick-money schemes. Skills such as content writing, graphic design, video editing, web development and digital marketing can provide different online opportunities.
 
-Another option is creating useful online content. A person can start a blog, YouTube channel or other content platform around a topic they understand. Helpful tutorials, guides and educational content can gradually attract an audience.
+One practical option is freelancing. After building some sample work, beginners can look for suitable freelance projects and gradually build experience.
 
-Affiliate marketing is another method, where a person can recommend relevant products or services and potentially earn a commission when someone makes a qualifying purchase through their link. It is important to clearly explain recommendations and avoid misleading claims.
+Another option is creating useful online content. A person can start a blog, YouTube channel or another content platform around a topic they understand. Helpful tutorials, guides and educational content can gradually attract an audience.
 
-Beginners should be careful with websites or offers that promise guaranteed income, ask for large upfront payments or claim that money can be earned without any effort. Before using an online earning platform, check its terms, reputation and payment conditions.
+Affiliate marketing is another method where a person can recommend relevant products or services and potentially earn a commission when someone makes a qualifying purchase through their link.
 
-The most sustainable approach is to build valuable skills, create useful work, learn from experience and improve consistently. Online income can take time, so patience and realistic goals are important."
+Beginners should be careful with websites or offers that promise guaranteed income, ask for large upfront payments or claim that money can be earned without any effort.
+
+The most sustainable approach is to build valuable skills, create useful work, learn from experience and improve consistently. Online income can take time, so patience and realistic goals are important.`,
+
   "Best AI Tools for Students in 2026":
-"AI tools can be useful for students when they are used as learning assistants rather than replacements for studying. They can help students understand difficult concepts, organize notes, generate practice questions and improve the clarity of their writing.
+`AI tools can be useful for students when they are used as learning assistants rather than replacements for studying.
+
+They can help students understand difficult concepts, organize notes, generate practice questions and improve the clarity of their writing.
 
 One useful way to use AI is for explanations. If a student does not understand a topic, they can ask for a simple explanation and then use textbooks, class notes and reliable educational sources to verify the information.
 
-AI can also help with study planning. Students can create a revision schedule, break a large topic into smaller sections and generate practice questions for self-testing. This can make study sessions more organized.
+AI can also help with study planning. Students can create a revision schedule, break a large topic into smaller sections and generate practice questions for self-testing.
 
-Writing assistance is another common use. AI tools can help identify grammar problems, suggest clearer wording or explain why a sentence may be difficult to understand. Students should still make sure that their final work represents their own understanding and follows their school's or institution's rules.
+Writing assistance is another common use. AI tools can help identify grammar problems and suggest clearer wording.
 
-Students should also remember that AI-generated information can sometimes be incorrect or incomplete. Important facts should therefore be checked using reliable sources.
+Students should remember that AI-generated information can sometimes be incorrect or incomplete. Important facts should therefore be checked using reliable sources.
 
-The best use of AI for education is to support curiosity, practice and understanding. Students who combine AI tools with their own reading, thinking and problem-solving can use technology more effectively while continuing to develop independent learning skills."
+The best use of AI for education is to support curiosity, practice and understanding.`,
 
-"A Simple Digital Productivity System":
-"A simple digital productivity system can help you organize your daily work, reduce distractions and make better use of your available time. The goal is not to use many complicated apps, but to create a system that is simple enough to follow every day.
+  "A Simple Digital Productivity System":
+`A simple digital productivity system can help you organize your daily work, reduce distractions and make better use of your available time.
 
-Start by writing down all the tasks you need to complete. Then identify the two or three tasks that are most important. Completing important tasks first can help you make steady progress instead of spending the whole day on small activities.
+The goal is not to use many complicated apps, but to create a system that is simple enough to follow every day.
 
-A calendar can be used for appointments, deadlines and fixed activities, while a notes or task-management app can be used for smaller tasks and ideas. Keeping information in one organized place can make it easier to remember what needs to be done.
+Start by writing down all the tasks you need to complete. Then identify the two or three tasks that are most important.
 
-Another useful habit is to avoid constantly switching between tasks. Try to focus on one important activity for a specific period and take short breaks when needed. Turning off unnecessary notifications can also reduce interruptions.
+A calendar can be used for appointments, deadlines and fixed activities, while a notes or task-management app can be used for smaller tasks and ideas.
 
-At the end of the day, spend a few minutes reviewing your progress. Mark completed tasks and move unfinished tasks to another suitable time. You can then prepare a short list for the following day.
+Another useful habit is to avoid constantly switching between tasks. Try to focus on one important activity for a specific period and take short breaks when needed.
 
-A good productivity system should make your work easier, not create additional stress. Start with a simple routine, use only the tools you actually need and improve the system gradually based on your experience."
+Turning off unnecessary notifications can also reduce interruptions.
 
-"How to Build a Better Online Presence":
-"Building a better online presence starts with clearly communicating who you are, what you know and how you can help other people. Whether you are a student, freelancer, creator or beginner professional, your online presence should provide useful and accurate information.
+At the end of the day, review your progress and prepare a short list for the following day.
 
-Start by choosing one or two platforms that match your goals. Instead of trying to be active everywhere, focus on creating useful content consistently on the platforms where your intended audience is most likely to be present.
+A good productivity system should make your work easier, not create additional stress.`,
 
-Your profile should clearly explain your interests, skills or area of work. Use a simple description and keep important information accurate. If you have a portfolio, website or useful projects, you can include relevant links where appropriate.
+  "How to Build a Better Online Presence":
+`Building a better online presence starts with clearly communicating who you are, what you know and how you can help other people.
 
-Content is an important part of an online presence. You can publish tutorials, practical tips, explanations, project updates and other original material related to your interests. Try to solve real problems instead of simply copying popular content from other websites.
+Whether you are a student, freelancer, creator or beginner professional, your online presence should provide useful and accurate information.
 
-Consistency is also important. You do not need to publish something every day. A realistic schedule that you can maintain is usually easier to follow than an aggressive schedule that quickly becomes difficult.
+Start by choosing one or two platforms that match your goals. Focus on creating useful content consistently instead of trying to be active everywhere.
 
-Finally, review your online profiles from time to time. Remove outdated information, correct mistakes and make sure the content you publish represents your current skills and interests.
+Your profile should clearly explain your interests, skills or area of work. Use a simple description and keep important information accurate.
 
-A useful online presence takes time to build. Focus on providing genuine value, communicating clearly and improving your work through regular practice."
+You can publish tutorials, practical tips, explanations, project updates and other original material related to your interests.
 
-"How to Start Freelancing as a Beginner in 2026":
-"Freelancing allows people to offer their skills to clients without working as traditional full-time employees. For beginners, the first step is to choose one skill and spend enough time learning and practicing it.
+Try to solve real problems instead of simply copying popular content from other websites.
 
-Some skills that can be useful for freelancing include content writing, graphic design, video editing, web development, virtual assistance and digital marketing. Beginners should avoid trying to learn too many skills at the same time. Focusing on one area can make it easier to build useful experience.
+Consistency is also important. You do not need to publish something every day. A realistic schedule that you can maintain is usually easier to follow.
 
-After learning the basics, create a few original sample projects. These samples can demonstrate your ability even when you do not have previous client experience. Keep the samples clear, well-organized and relevant to the type of work you want to offer.
+A useful online presence takes time to build. Focus on providing genuine value, communicating clearly and improving your work through regular practice.`,
 
-The next step is to look for suitable freelance opportunities. Before accepting any project, understand what the client needs, the expected deadline, the payment terms and the work involved. Clear communication can prevent many misunderstandings.
+  "How to Start Freelancing as a Beginner in 2026":
+`Freelancing allows people to offer their skills to clients without working as traditional full-time employees.
 
-Beginners should also be careful about suspicious offers. Avoid opportunities that require large upfront payments, request unnecessary sensitive information or promise guaranteed earnings for very little work.
+For beginners, the first step is to choose one skill and spend enough time learning and practicing it.
 
-At first, building a freelance career may take time. Focus on improving your skill, completing work responsibly and learning from feedback. Over time, good-quality work and professional communication can help you build experience and a stronger portfolio.
+Some useful freelancing skills include content writing, graphic design, video editing, web development, virtual assistance and digital marketing.
 
-Freelancing is not a guaranteed way to make money quickly. It is better to treat it as a skill-based career path that requires learning, patience, communication and consistent effort."
+After learning the basics, create a few original sample projects. These samples can demonstrate your ability even when you do not have previous client experience.
 
-"How to Create a Professional Resume Using Digital Tools":
-"A professional resume is a simple document that presents your education, skills, projects, experience and achievements to potential employers. Digital tools make it easier for beginners to create a clean and readable resume without needing advanced design skills.
+Before accepting a project, understand what the client needs, the deadline, payment terms and the work involved.
 
-Start with your name and basic contact information. Depending on the opportunity, you can then include a short professional summary, education, relevant skills, projects, work experience and other achievements that are useful for the position.
+Beginners should be careful about suspicious offers. Avoid opportunities that require large upfront payments or promise guaranteed earnings for very little work.
 
-When describing skills or experience, use clear and specific information. Instead of simply writing that you are good at a particular skill, mention a project or task where you actually used it. Students without formal work experience can include academic projects, personal projects, internships or relevant volunteer work.
+Building a freelance career may take time. Focus on improving your skill, completing work responsibly and learning from feedback.
 
-Keep the design simple. Use clear headings, readable fonts and consistent spacing. Avoid unnecessary graphics, excessive colors or information that does not help the reader understand your qualifications.
+Freelancing is not a guaranteed way to make money quickly. It is a skill-based career path that requires learning, patience, communication and consistent effort.`,
 
-Before sending your resume, check the document carefully for spelling, grammar and formatting mistakes. Make sure your contact details and other information are accurate. It can also be useful to create a PDF version so that the formatting remains consistent when the resume is opened on another device.
+  "How to Create a Professional Resume Using Digital Tools":
+`A professional resume is a simple document that presents your education, skills, projects, experience and achievements to potential employers.
 
-A resume should be adapted when appropriate for different opportunities. Highlight the skills and experience that are relevant to the particular role instead of sending exactly the same information everywhere.
+Digital tools make it easier for beginners to create a clean and readable resume without needing advanced design skills.
 
-Most importantly, keep the resume honest. Do not add qualifications, experience or skills that you do not actually have. A clear, accurate and well-organized resume can make it easier for an employer to understand your background and decide whether to learn more about you."
+Start with your name and basic contact information. Then include a short professional summary, education, relevant skills, projects, work experience and other useful achievements.
+
+When describing skills or experience, use clear and specific information. Students without formal work experience can include academic projects, personal projects, internships or relevant volunteer work.
+
+Keep the design simple. Use clear headings, readable fonts and consistent spacing. Avoid unnecessary graphics or information.
+
+Before sending your resume, check it carefully for spelling, grammar and formatting mistakes. Make sure your contact details and other information are accurate.
+
+It can also be useful to create a PDF version so that the formatting remains consistent on different devices.
+
+Most importantly, keep the resume honest. Do not add qualifications, experience or skills that you do not actually have.
+
+A clear, accurate and well-organized resume can make it easier for an employer to understand your background.`
+
 };
 
 // ==============================
