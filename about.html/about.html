@@ -1,112 +1,560 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>About Us - Learn With Digital</title>
-  <meta name="description" content="Learn more about Learn With Digital and our mission to share useful digital skills and knowledge.">
+  <title>Learn With Digital - AI, Blogging, Online Earning & Digital Skills</title>
+  <meta name="description" content="Learn With Digital shares practical guides on AI tools, online earning, freelancing, blogging, productivity and useful digital skills for beginners.">
+  <meta name="robots" content="index, follow">
+    
 
-  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
 
+  <!-- HEADER -->
   <header class="site-header">
-    <div class="header-inner">
+    <div class="container header-inner">
 
-      <a href="../index.html" class="brand">
-        <div class="logo-mark">LD</div>
+      <a href="#" class="brand">
+        <span class="logo-mark">D</span>
 
-        <div class="brand-text">
-          <div class="brand-name">Learn With Digital</div>
-          <div class="brand-sub">Learn • Build • Grow</div>
-        </div>
+        <span class="brand-text">
+          <span class="brand-name">Learn With Digital</span>
+          <span class="brand-sub">Learn. Build. Grow.</span>
+        </span>
       </a>
 
-      <nav class="nav">
-        <a href="../index.html">Home</a>
-        <a href="../index.html#articles">Articles</a>
-        <a href="../contact%20page/contact.html">Contact Us</a>
+      <nav class="nav" id="mainNav">
+        <a href="#home">Home</a>
+        <a href="#articles">Articles</a>
+        <a href="#topics">Topics</a>
+        <a href="about.html/about.html">About</a>
       </nav>
+
+      <div class="header-actions">
+        <button id="themeBtn" class="icon-btn" type="button" aria-label="Toggle dark mode">
+          ☾
+        </button>
+
+        <button
+          id="menuBtn"
+          class="menu-btn"
+          type="button"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+      </div>
 
     </div>
   </header>
 
 
-  <main class="section">
+  <main>
 
-    <div class="section-head">
-      <div>
-        <span class="eyebrow">About us</span>
-        <h1>About Learn With Digital</h1>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+
+        <div class="hero-content">
+          <span class="eyebrow">WELCOME TO LEARN WITH DIGITAL</span>
+
+          <h1>
+            Learn digital skills.
+            <span>Build your future.</span>
+          </h1>
+
+          <p>
+            Simple and practical articles about AI, online income,
+            productivity and building a better online presence.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#articles" class="btn">Explore Articles</a>
+            <a href="#topics" class="btn btn-secondary">Browse Topics</a>
+          </div>
+        </div>
+
+        <!-- FEATURED ARTICLE -->
+        <article class="featured">
+
+          <div class="featured-top">
+            <span class="tag">FEATURED</span>
+            <span class="meta">2026</span>
+          </div>
+
+          <div class="featured-body">
+          <h2>How to Create a Professional Resume Using Digital Tools</h2>
+
+            <p>
+              Learn how to create a professional resume using simple digital tools, choose the right format, highlight your skills, and make your resume clear and useful for job opportunities.
+            </p>
+
+            <a href="#" class="read-more" data-title="How to Create a Professional Resume Using Digital Tools">
+  Read Articles →
+</a>
+          </div>
+
+        </article>
+
       </div>
+    </section>
+
+
+    <!-- POPULAR TOPICS -->
+    <section class="popular" id="topics">
+      <div class="container">
+
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">EXPLORE</span>
+            <h2>Popular Topics</h2>
+          </div>
+
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Search articles..."
+            aria-label="Search articles"
+          />
+        </div>
+
+
+        <div class="topic-grid">
+
+          <button class="topic" type="button" data-category="AI">
+            <span class="topic-icon">🤖</span>
+            <strong>AI</strong>
+            <small>Artificial Intelligence</small>
+          </button>
+
+          <button class="topic" type="button" data-category="Money">
+            <span class="topic-icon">💰</span>
+            <strong>Money</strong>
+            <small>Online Income</small>
+          </button>
+
+          <button class="topic" type="button" data-category="Productivity">
+            <span class="topic-icon">⚡</span>
+            <strong>Productivity</strong>
+            <small>Work Smarter</small>
+          </button>
+
+          <button class="topic" type="button" data-category="Blogging">
+            <span class="topic-icon">✍</span>
+            <strong>Blogging</strong>
+            <small>Build Online</small>
+          </button>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- LATEST ARTICLES -->
+    <section class="latest" id="articles">
+      <div class="container">
+
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">LATEST</span>
+            <h2>Latest Articles</h2>
+          </div>
+        </div>
+
+ <div class="post-grid">
+        <article class="post" data-category="Money" data-title="How to Start Freelancing as a Beginner in 2026">
+  <div class="post-body">
+    <div class="meta">
+      <span>Money</span>
     </div>
 
+    <h3>How to Start Freelancing as a Beginner in 2026</h3>
 
-    <article class="post" style="grid-template-columns: 1fr;">
-      <div class="post-body" style="width:100%; max-width:100%;">
+    <p>
+      Learn how beginners can choose a digital skill, build a simple portfolio,
+      find freelance opportunities and start working with clients online.
+    </p>
 
-        <p>
-          Welcome to Learn With Digital, a simple educational blog
-          created to help people learn useful digital skills and
-          understand the opportunities available on the internet.
-        </p>
+    <a href="#" class="read-more" data-title="How to Start Freelancing as a Beginner in 2026">
+    Read More →
+</a>
+  </div>
+</article>
+          <!-- ARTICLE 1 -->
+          <article
+            class="post"
+            data-category="Money"
+            data-title="How to Earn Money Online in 2026"
+          >
 
-        <h2>Our Mission</h2>
+            <div class="post-cover">
+              <img
+                src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=900&q=80"
+                alt="Money and online income"
+              />
+            </div>
 
-        <p>
-          Our mission is to publish simple, practical, and useful
-          information that helps readers learn new digital skills,
-          work smarter, and build their online knowledge.
-        </p>
+            <div class="post-body">
 
-        <h2>What We Write About</h2>
+              <div class="meta">
+                <span>Money</span>
+                <span>5 min read</span>
+              </div>
 
-        <p>
-          We cover topics such as artificial intelligence, online
-          earning, productivity, blogging, digital tools, and other
-          useful technology-related topics.
-        </p>
+              <h3>How to Earn Money Online in 2026</h3>
 
-        <h2>Our Content</h2>
+              <p>
+  Discover practical ways to earn money online in 2026 using
+  freelancing, content creation, digital skills, affiliate marketing,
+  and other legitimate online opportunities.
+</p>
 
-        <p>
-          We aim to create original and easy-to-understand articles.
-          Our goal is to provide helpful information rather than
-          confusing readers with unnecessary technical language.
-        </p>
+              <a
+                href="#"
+                class="read-more"
+                data-title="How to Earn Money Online in 2026"
+              >
+                Read More →
+              </a>
 
-        <h2>Our Goal</h2>
+            </div>
+          </article>
 
-        <p>
-          We want Learn With Digital to become a useful resource for
-          students, beginners, creators, and anyone who wants to
-          improve their digital skills.
-        </p>
 
-        <h2>Contact Us</h2>
+          <!-- ARTICLE 2 -->
+          <article
+            class="post"
+            data-category="AI"
+            data-title="Best AI Tools for Students in 2026"
+          >
 
-        <p>
-          Have a question, suggestion, or feedback?
-          Visit our <a href="../contact%20page/contact.html">Contact Us</a> page.
+            <div class="post-cover">
+              <img
+                src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=900&q=80"
+                alt="Artificial intelligence technology"
+              />
+            </div>
+
+            <div class="post-body">
+
+              <div class="meta">
+                <span>AI</span>
+                <span>6 min read</span>
+              </div>
+
+              <h3>Best AI Tools for Students in 2026</h3>
+              <a
+  href="ai-learn-tools.html"
+  class="read-more"
+
+              <p>
+                Discover the best AI tools that can help students study
+                smarter, save time, and learn better.
+              </p>
+
+              <a
+                href="#"
+                class="read-more"
+                data-title="Best AI Tools for Students in 2026"
+              >
+                Read More →
+              </a>
+
+            </div>
+          </article>
+
+
+          <!-- ARTICLE 3 -->
+          <article
+            class="post"
+            data-category="Productivity"
+            data-title="A Simple Digital Productivity System"
+          >
+
+            <div class="post-cover">
+              <img
+                src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=900&q=80"
+                alt="Digital productivity workspace"
+              />
+            </div>
+
+            <div class="post-body">
+
+              <div class="meta">
+                <span>Productivity</span>
+                <span>4 min read</span>
+              </div>
+
+              <h3>A Simple Digital Productivity System</h3>
+
+              <p>
+                A simple system to organize your tasks, manage your time,
+                and get more important work done every day.
+              </p>
+
+              <a
+                href="#"
+                class="read-more"
+                data-title="A Simple Digital Productivity System"
+              >
+                Read More →
+              </a>
+
+            </div>
+          </article>
+
+
+          <!-- ARTICLE 4 -->
+          <article
+            class="post"
+            data-category="Blogging"
+            data-title="How to Build a Better Online Presence"
+          >
+
+            <div class="post-cover">
+              <img
+                src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=900&q=80"
+                alt="Building an online presence"
+              />
+            </div>
+
+            <div class="post-body">
+
+              <div class="meta">
+                <span>Blogging</span>
+                <span>5 min read</span>
+              </div>
+
+              <h3>How to Build a Better Online Presence</h3>
+
+              <p>
+                Learn simple ways to build your personal brand and create
+                a strong online presence.
+              </p>
+
+              <a
+                href="#"
+                class="read-more"
+                data-title="How to Build a Better Online Presence"
+              >
+                Read More →
+              </a>
+
+            </div>
+          </article>
+
+        </div>
+
+
+        <!-- EMPTY SEARCH RESULT -->
+        <div class="empty" id="emptyState" hidden>
+          <h3>No articles found</h3>
+          <p>Try a different search or choose another topic.</p>
+        </div>
+
+      </div>
+    </section>
+
+<!-- RECOMMENDED DIGITAL TOOLS -->
+    <section class="recommended-tools">
+      <div class="container">
+
+        <div class="section-head">
+          <div>
+            <span class="eyebrow">USEFUL TOOLS</span>
+            <h2>Recommended Digital Tools</h2>
+          </div>
+        </div>
+
+        <div class="post-grid">
+
+          <article class="post">
+            <div class="post-body">
+              <div class="meta">
+                <span>AI Tools</span>
+              </div>
+
+              <h3>Useful AI Tools for Beginners</h3>
+
+              <p>
+                Explore useful AI tools that can help with learning,
+                writing, productivity and everyday digital work.
+              </p>
+
+              <a href="#" class="read-more">
+                Explore Tools →
+              </a>
+            </div>
+          </article>
+
+          <article class="post">
+            <div class="post-body">
+              <div class="meta">
+                <span>Productivity</span>
+              </div>
+
+              <h3>Useful Productivity Tools</h3>
+
+              <p>
+                Discover simple digital tools that can help you
+                organize tasks, manage projects and work more efficiently.
+              </p>
+
+              <a href="#" class="read-more">
+                Explore Tools →
+              </a>
+            </div>
+          </article>
+
+          <article class="post">
+            <div class="post-body">
+              <div class="meta">
+                <span>Digital Skills</span>
+              </div>
+
+              <h3>Tools for Building Digital Skills</h3>
+
+              <p>
+                Find useful platforms and resources for learning
+                new digital skills and improving your online work.
+              </p>
+
+              <a href="#" class="read-more">
+                Explore Tools →
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <p style="margin-top:20px; font-size:14px;">
+          Disclosure: Some links may be affiliate links. If you use
+          an eligible link, we may receive a commission at no extra
+          cost to you.
         </p>
 
       </div>
-    </article>
+    </section>
+    <!-- NEWSLETTER -->
+    <section class="newsletter">
+      <div class="container">
+
+        <div class="newsletter-inner">
+
+          <div>
+            <span class="eyebrow">STAY UPDATED</span>
+            <h2>Get new articles in your inbox.</h2>
+            <p>
+              Subscribe for useful digital tips, guides and ideas.
+            </p>
+          </div>
+
+          <form class="newsletter-form" id="subscribeForm">
+
+            <input
+              type="email"
+              id="emailInput"
+              placeholder="Enter your email"
+              required
+              aria-label="Email address"
+            />
+
+            <button type="submit" class="btn">
+              Subscribe
+            </button>
+
+            <p id="formMessage"></p>
+
+          </form>
+
+        </div>
+
+      </div>
+    </section>
 
   </main>
 
 
-  <footer class="site-footer">
+  <!-- FOOTER -->
+  <footer class="site-footer" id="about">
+    <div class="container footer-grid">
 
-    <div class="footer-bottom">
-      <p>
-        © 2026 Learn With Digital. All rights reserved.
-      </p>
+      <div class="footer-brand">
+        <h3>Learn With Digital</h3>
+        <p>
+          Simple ideas for learning digital skills,
+          building online income and growing your future.
+        </p>
+      </div>
+
+      <div>
+  <h4>Explore</h4>
+  <a href="#home">Home</a>
+  <a href="#articles">Articles</a>
+  <a href="#topics">Topics</a>
+  <a href="about.html/about.html">About Us</a>
+  <a href="contact page/contact.html">Contact Us</a>
+  <a href="privacy.html">Privacy Policy</a>
+</div>
+
+      <div>
+        <h4>Topics</h4>
+        <a href="#topics">AI</a>
+        <a href="#topics">Money</a>
+        <a href="#topics">Productivity</a>
+        <a href="#topics">Blogging</a>
+      </div>
+
     </div>
 
+    <div class="container footer-bottom">
+      <p>
+        © <span id="year"></span> Learn With Digital. All rights reserved.
+      </p>
+    </div>
   </footer>
+
+
+  <!-- ARTICLE MODAL -->
+  <div
+    class="modal"
+    id="articleModal"
+    aria-hidden="true"
+  >
+
+    <div class="modal-card">
+
+      <button
+        class="close"
+        id="closeModal"
+        type="button"
+        aria-label="Close article"
+      >
+        ×
+      </button>
+
+      <span class="tag">ARTICLE PREVIEW</span>
+
+      <h2 id="modalTitle"></h2>
+
+      <p id="articleModalContent"></p>
+
+      <p class="modal-note">
+        Tip: Keep learning, practice your skills and build something useful.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <script src="script.js"></script>
 
 </body>
 </html>
