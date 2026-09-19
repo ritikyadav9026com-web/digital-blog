@@ -250,16 +250,19 @@ document.querySelectorAll(".read-more").forEach(link => {
 
   link.addEventListener("click", event => {
 
+    if (link.getAttribute("href") !== "#") {
+      return;
+    }
+
     event.preventDefault();
 
-    const title =
-  link.dataset.title;
+    const title = link.dataset.title;
 
-modalContent.textContent =
-  articleContent[title] ||
-  "This article is coming soon. Keep checking Digital Blog for more useful content.";
+    modalContent.textContent =
+      articleContent[title] ||
+      "This article is coming soon. Keep checking Digital Blog for more useful content.";
 
-modal.classList.add("show");
+    modal.classList.add("show");
 
     modal.setAttribute(
       "aria-hidden",
